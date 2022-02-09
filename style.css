@@ -1,0 +1,149 @@
+body{
+  background-color: #F8B03D;
+}
+
+#header{
+  background-color: #F8B03D;
+  color: ghostwhite;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  box-shadow: 0px 2px 2px #53504D;
+  padding-right: 10px;
+}
+
+
+/*.mainsct{
+    background-color: #F8B03D;
+}
+*/
+.main{
+  font-family: noto sans arabic;
+  background-color: #F8B03D;
+  border: ghostwhite solid 8px;
+  border-radius: 30px;
+  padding: 15px;
+  margin: 20px;
+  margin-top: 5%;
+  box-shadow: 0px 4px 8px #53504D;
+  animation-name: moveInRight;
+  animation-duration: 3s;
+}
+#h1{
+  text-align: center;
+  color: ghostwhite;
+  font-size: 45pt;
+}
+
+#count-el{
+  text-align: center;
+  font-size: 28pt;
+  color: ghostwhite;
+}
+
+#previous{
+  text-align: center;
+  color: ghostwhite;
+}
+
+/*#count{
+  color: #F8B03D;
+  width: 40%;
+  padding: 10px;
+  margin-left: 30%;
+  margin-top: 30%;
+  display: block;
+  border-radius: 10px;
+  border: #F8B03D solid 4px;
+}
+
+#save-btn{
+  color: #F8B03D;
+  width: 40%;
+  padding: 10px;
+  margin-left: 30%;
+  margin-top: 10px;
+  display: block;
+  border-radius: 10px;
+  border: #F8B03D solid 4px;
+}
+*/
+.button{
+  float: left;
+  color: #F8B03D;
+  width: 40%;
+  padding: 10px;
+  font-family: rowdies;
+  margin-left: 4.8%;
+  margin-right: 4.8%;
+  margin-bottom: 2%;
+  margin-top: 10px;
+  display: block;
+  border-radius: 10px;
+  border: ghostwhite solid 4px;
+  box-shadow: 0px 1px 1px #53504D;
+}
+#reset-btn{
+  color: #F8B03D;
+  font-family: rowdies;
+  font-size: 20px;
+  width: 91%;
+  padding: 10px;
+  margin-left: 5%;
+  margin-top: 20px;
+  display: block;
+  border-radius: 10px;
+  border: ghostwhite solid 4px;
+  box-shadow: 0px 1px 1px #53504D;
+}
+
+.sct{
+  background-color: #F8B03D;
+  color: ghostwhite;
+  text-align: center;
+}
+
+.firstdiv{
+  animation-name: moveInLeft;
+  animation-duration: 3s;
+}
+
+.seconddiv{
+  animation-name: moveInRight;
+  animation-duration: 3s;
+}
+@keyframes moveInLeft{
+  0%{
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  80%{
+    opacity: 0.8;
+    transform: translateX(5px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInRight{
+  0%{
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  80%{
+    opacity: 0.8;
+    transform: translateX(-5px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+#footer{
+  text-align: center;
+  color: ghostwhite;
+  font-weight: 20px;
+  font-family: nunito;
+}
